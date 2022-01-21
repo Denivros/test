@@ -29,6 +29,7 @@ export default NextAuth({
     CoinbaseProvider({
       clientId: process.env.NEXT_PUBLIC_COINBASE_CLIENT_ID,
       clientSecret: process.env.NEXT_PUBLIC_COINBASE_CLIENT_SECRET,
+      // options: { redirect_uri: "https://test-denivros.vercel.app/" },
     }),
   ],
   // The secret should be set to a reasonably long random string.
