@@ -29,7 +29,6 @@ export default NextAuth({
     CoinbaseProvider({
       clientId: process.env.NEXT_PUBLIC_COINBASE_CLIENT_ID,
       clientSecret: process.env.NEXT_PUBLIC_COINBASE_CLIENT_SECRET,
-      options: { redirect_uri: "http://127.0.0.1:3000/" },
     }),
   ],
   // The secret should be set to a reasonably long random string.
